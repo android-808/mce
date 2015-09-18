@@ -260,7 +260,7 @@ MCE_PKG_NAMES += dbus-1
 MCE_PKG_NAMES += dbus-glib-1
 MCE_PKG_NAMES += dsme
 MCE_PKG_NAMES += libiphb
-MCE_PKG_NAMES += libsystemd-daemon
+MCE_PKG_NAMES += libsystemd
 MCE_PKG_NAMES += libngf0
 
 MCE_PKG_CFLAGS := $(shell $(PKG_CONFIG) --cflags $(MCE_PKG_NAMES))
