@@ -1,8 +1,18 @@
-debian/tmp/etc/mce
-debian/tmp/etc/osso-cud-scripts
-debian/tmp/etc/osso-rfs-scripts
-debian/tmp/var
+# Binaries
 debian/tmp/usr/sbin/mce
-debian/tmp/usr/lib/mce
-debian/tmp/usr/share/mce
-debian/tmp/usr/share/backup-framework/applications
+debian/tmp/usr/lib/mce/modules/*.so
+# Config
+debian/tmp/etc/mce/10mce.ini
+debian/tmp/etc/mce/20mce-radio-states.ini
+debian/tmp/etc/mce/20hybris-led.ini
+debian/tmp/etc/mce/20debug-led.ini
+debian/tmp/etc/mce/20als-defaults.ini
+debian/tmp/var/lib/mce
+# manpages
+debian/tmp/usr/share/man/man8/mce.8
+# dbus
+debian/tmp/etc/dbus-1/system.d/mce.conf
+# systemd
+debian/tmp/etc/tmpfiles.d/mce.conf
+debian/tmp/lib/systemd/system/mce.service
+debian/tmp/lib/systemd/system/multi-user.target.wants/mce.service

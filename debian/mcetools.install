@@ -1,1 +1,3 @@
 debian/tmp/usr/sbin/mcetool
+debian/tmp/usr/sbin/evdev_trace
+debian/tmp/usr/share/man/man8/mcetool.8
